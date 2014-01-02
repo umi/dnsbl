@@ -32,11 +32,6 @@ class DnsBl {
 	 */
 	const SORBS_DNSBL = 'http.dnsbl.sorbs.net';
 	
-	/**
-	 * TOR
-	 */
-	const TOR = 'tor.s2n.ch';
-	
 	private function __construct() {
 	}
 	
