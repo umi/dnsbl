@@ -41,7 +41,7 @@ class DnsBl {
 	}
 	
 	/**
-	 * DNSBL検索
+	 * lookup
 	 */
 	public static function exist($ip, $rbl = self::BBQ){
 		$query_addr = implode('.',array_reverse(explode( ".", $ip))).'.'.$rbl;
